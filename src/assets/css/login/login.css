@@ -1,0 +1,37 @@
+.login{
+    width:100%;
+    height: 100%;
+}
+.login .header{
+    height:39px;
+    width:100%;
+    display:flex;
+    justify-content : space-between;
+    align-items:center;
+    background:#fff;
+    position:fixed;
+}
+.login .header .goBack,.delivery .header .right{
+    width:39px;
+    height:39px;
+}
+.login .header .goBack,.delivery .header .server,.delivery .header .right{
+    display:flex;
+    justify-content : center;
+    align-items:center;
+}
+.login .header .goBack .con,.delivery .header .right .icon{
+    font-size:26px;
+}
+.login .header .server{
+    flex:1;
+    height:39px;
+}
+.apacity{
+    position:absolute;
+    width:100%;
+    height : 100%;
+    display:none;
+    z-index:222;
+    background : rgba(0, 0, 0, 0.4);
+}

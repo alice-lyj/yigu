@@ -1,0 +1,32 @@
+body,html,ul,li{
+    margin :0 ;
+    padding :0;
+
+}
+*{
+    box-sizing: border-box;
+}
+* { overflow: -moz-scrollbars-none; }
+* { -ms-overflow-style: none; }
+*::-webkit-scrollbar { width: 0 !important }
+
+
+body,html{
+    height : 100%;
+    width : 100%;
+    display : flex ;
+    flex-direction : column;
+    overflow-x:hidden;
+    position:relative;
+    box-sizing : border-box;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration : normal;
+}
+#root {
+    overflow-y: scroll;
+    height:100%;
+}

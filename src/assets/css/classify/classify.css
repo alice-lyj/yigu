@@ -1,0 +1,229 @@
+.all{
+    height :100%;
+    width:100%;
+}
+.apacity{
+    position:absolute;
+    width:100%;
+    height : 100%;
+    display:none;
+    z-index:222;
+    background : rgba(0, 0, 0, 0.4);
+}
+
+.header {
+    margin:0;
+    padding : 0;
+    height :78px;
+    width :100%;
+    border:none;
+}
+.header .fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    height :78px;
+    width :100%;
+    display :flex;
+    flex-direction : column;
+    justify-content : space-between;
+    align-items:center;
+}
+.header .fixed .box{
+    height :39px;
+    width:100%;
+    background :#fff;
+    display :flex;
+    justify-content :space-between;
+    align-items:center;
+    padding :0 15px;
+}
+.header .fixed .box .left {
+    display :inline-block;
+    font-size:20px;
+    color: #666666;
+    width :23px;
+    height :23px;
+}
+.header .fixed .box .search{
+    width:80%;
+    height :30px;
+    border-radius : 15px;
+    background:rgba(110, 104, 104, 0.1);
+    line-height : 30px;
+    padding : 0 10px;
+}
+.header .fixed .box .ellipsis{
+    font-size : 20px;
+    color:#666;
+    font-weight :999;
+
+}
+
+.header .fixed .nav{
+    width :100%;
+    height :39px;
+    background:#fff;
+    position :fixed;
+    top:39px;
+    line-height :39px;
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    
+}
+.header .fixed .nav .lists{
+    overflow:hidden;
+    height:39px;
+    width:100%;
+}
+.header .fixed .nav .lists .scroll{
+    box-sizing: border-box;
+    display : flex ;
+    height :39px;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 15px;
+    color: #666666;
+
+}
+.header .fixed .nav .lists .scroll .headerList{
+    text-align:center;
+    line-height :39px;
+    margin : 0 3px;
+    width : 73px;
+    height : 39px;
+}
+.header  .fixed .nav .lists .headerList span{
+    font-size: 12px;
+}
+.mainContent{
+    flex : 1;
+    width :100%;
+    height :100%;
+}
+.slider{
+    width : 25%;
+    height : 100%;
+    position:fixed;
+    left:0;
+    padding:0;
+    margin:0;
+}
+.fontSize{
+    color :red;
+}
+#bg{
+    background :#fff;
+}
+.slider .list{
+    height :100%;
+    background: #fcfcfc;
+    border:none;
+}
+.slider .listEach{
+    line-height :45px;
+    text-align :center;
+    color: #909090;
+    width :100%;
+    height : 45px;
+}
+.slider .listEach .listBar{
+    float :left;
+    width :3px;
+    height :14px;
+    margin-top:15px;
+}
+.content{
+    width :75%;
+    height :100%;
+    overflow-y:scroll;
+    position:fixed;
+    right:0;
+    background :#fff;
+    display :flex;
+    flex-direction:column;
+    margin-bottom:10px;
+}
+.color{
+    color:red;
+}
+.content .products{  
+    width :auto; 
+    height : 115px;
+    display:flex;
+    border-bottom: 1px solid #f6f6f6;
+}
+.content .products .pic{
+    width : 104px;
+    height :104px;
+}
+.content .products .pic img{
+    width : 104px;
+    height :104px;    
+}
+.content .products .right {
+    display :flex ;
+    flex-direction:column;
+    width:172px;
+}
+.content .products .right .name{
+    height : 21px;
+    color: #303030;
+    font-size: 14px;
+    line-height: 18px;
+    padding : 0 8px;
+    margin-top: 11px;
+}
+
+.content .products .right .slogan{
+    color: #939393;
+    height: 30px;
+    font-size: 12px;
+    padding:6px;
+}
+.content .products .right .address{
+    height: 14px;
+    color: red;
+    font-size: 10px;
+    padding: 0 8px;
+}
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.content .products .right .address .arrive{
+    color: #fff;
+    background-color: red;
+    border-radius: 8px;
+    padding: 0 4px;
+    margin: 0 3px;
+} 
+.content .products .right .address .storehouse{
+    color: #af52ef;
+    margin: 0  3px;
+}
+.content .products .right .price{
+    color: red;
+    font-size: 17px;
+    display :flex;
+    justify-content :space-between;
+}
+.content .products .right .price .cart{
+    width :25px;
+    height :25px;
+    background-color: red;
+    border-radius :50%;
+    color:#fff;
+    text-align:center;
+    font-weight : bold;
+}
+
+
+
+
+
+
+

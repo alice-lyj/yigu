@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    height:66px;
+    width: 100%;
+}
+.header-box{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index:100;
+    height: 66px;
+    background:#fff ;
+}
+.header-srcoll{
+    width:650px;
+}
+.van-box{
+    flex: 1;
+    height:33px;
+    line-height: 33px;
+    overflow: hidden;
+    z-index:999;
+    border-bottom: 1px solid #eee;
+}
+.van-box .van-tab .van-ellipsis{
+    display: block;
+    width:63px;
+    height: 33px;
+    float: left;
+    font-size: 10px;
+}
+.box{
+    width:100%;
+    height:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.search{
+    width:300px;
+    height:33px;
+}
+
+
+
+
+
