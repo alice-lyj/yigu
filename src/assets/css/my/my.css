@@ -1,0 +1,197 @@
+.my{
+    height : 100%;
+    width : auto;
+    background :#f0f2f5;
+    padding-bottom:50px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    border:none;
+}
+.user{
+    width : 100%;
+    height : 133px;
+    background : url("../../img//myImg/user_bg.png") center no-repeat;
+    background-size : 100%;
+    display :flex;
+    flex-direction: column;
+}
+.user .header{
+    height :39px;
+    width :100%;
+    display : flex;
+    color:#fff;
+    justify-content:space-between;
+    align-items:center;
+}
+.user .header .userMinPic,.user .header .iconBox{
+    height:39px;
+    width:39px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.user .header .userMinPic .headerpic{
+    height:27px;
+    width:27px;
+    border-radius:50%;
+    display:none;
+}
+.user .header .username{
+    display:none;
+}
+.user .header .iconBox .settingicon{
+    height :23px;
+    width:23px; 
+    font-size : 20px;
+    color :#fff;
+}
+
+.contain{
+    height : 63px;
+    width :100%;
+    margin-left : 15px;
+    display :flex;
+}
+.contain .pic{
+    height : 63px;
+    width :63px;
+}
+.contain .pic img{
+    height : 63px;
+    width :63px;
+    border-radius :50%;
+}
+.contain .msg{
+    display :flex;
+    flex-direction : column ;
+    color :#fff;
+    margin : 10px 0 0 15px;
+}
+.task{
+    height : 75px;
+    width:auto;
+    margin:12px;
+    background:#fcfcfc;
+    border-radius:2px;
+    display:flex;
+    justify-content:space-between;
+    box-shadow:0 2px 2px rgba(207, 207, 207, 0.3);
+}
+.task .list{
+    display:flex;
+    flex-direction:column;
+    height : 60px;
+    width:70px;
+    margin: 7px 0;
+    justify-content:space-between;
+    align-items:center;
+}
+.task .list img{
+    width :40px;
+    height :40px;
+}
+.task .list span{
+    color : #282828;
+    font-size :10px;
+}
+.mainList{
+    width :100%;
+    height :auto;
+    position:relative;
+}
+.mainList .like{
+    height:59px;
+    width:100%;
+}
+.mainList .like img{
+    height:100%;
+    width:100%;
+}
+.mainList .product{
+    background:#fefbfb;
+    height :100%;
+    padding:0 10px;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content :space-between;
+    padding-bottom:40px;
+}
+.mainList .product .eachProduct{
+    background:#fff;
+    margin-top:8px;
+    height : 234px;
+    width :176px;
+}
+.mainList .product .eachProduct .pic{
+    height:176px;
+    width:176px;
+}
+.mainList .product .eachProduct .pic img {
+    height :100%;
+    width:100%;
+}
+.mainList .product .eachProduct .name{
+    width :98%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+    padding: 0 5px;
+    color: #373737;
+}
+.mainList .product .eachProduct .price{
+    margin-top:5px;
+    padding : 0  3px;
+    color: red;
+    font-size: 16px;
+    display :flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.mainList .product .eachProduct .price .icon{
+    height: 21px;
+    width: 21px;
+    line-height:21px;
+    text-align:center;
+    border-radius:50%;
+    background:red;
+    color:#fff;
+    font-size:16px;
+}
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.loadding{
+    margin-top:15px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#444;
+    width:100%;
+    height : 40px;
+    line-height:30px;   
+}
+
+
+.toTop{
+    width:31px;
+    height:31px;
+    border-radius:50%;
+    position:fixed;
+    bottom:60px;
+    right:20px;
+    font-size:20px;
+    display :none;
+    background:url("../../img/myImg/top.png") center no-repeat;
+    background-size:100%;
+}
+.toTop img{
+    width:31px;
+    height:31px;
+    border-radius:50%;
+}
+
+
+
